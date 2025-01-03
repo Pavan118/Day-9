@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <h1 style="text-align: center"><u>Job Application</u></h1>
+    <label for="a"><b>Enter your Full Name:</b></label><br><br>
+    <input type="text" name="name" placeholder="First Name" id="a">
+    <input type="text" name="name" placeholder="Last Name" id="a"><br><br>
+    <label for="b"><b>Enter your E-Mail:</b></label><br><br>
+    <input type="text" name="email" placeholder="ex:name@gmail.com" id="b"><br><br>
+    <label for="c"><b>Enter your Mobile Number:</b></label><br><br>
+    <input type="number" maxlength="10" id="c" pattern="\d{10}"><br><br>
+    <label for="i"><b>Gender:</b></label><br><br>
+    <select>
+        <option>--None--</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Others</option>
+    </select>
+    <br><br>
+    <label for="j"><b>Current location(Mention the name of City/Town)*</b></label><br><br>
+    <input type="text" id="j" name="location"><br><br>
+    <label for="k"><b>Year of Graduation:</b></label><br><br>
+    <select>
+        <option>--None--</option>
+        <option>2025</option>
+        <option>2024</option>
+        <option>2023</option>
+        <option>2022</option>
+    </select>
+    <br><br>
+    <label for=""><b>Select your Skills:</b></label><br><br>
+    <input type="checkbox" id="l" name="skills">
+    <label for="l">Java</label><br>
+    <input type="checkbox" id="m" name="skills">
+    <label for="m">Python</label><br>
+    <input type="checkbox" id="n" name="skills">
+    <label for="n">JavaScript</label><br>
+    <input type="checkbox" id="o" name="skills">
+    <label for="o">Node.Js</label><br>
+    <input type="checkbox" id="p" name="skills">
+    <label for="p">Other</label>
+    <br><br>
+    <label for="q"><b>Enter Skills(if selected other):</b></label><br><br>
+    <input type="text" id="q"><br><br>
+    <label for="d"><b>What Position are you applying for?</b></label><br><br>
+    <input type="text" id="d"><br><br>
+    <label for=""><b>What is your current employment status?</b></label><br><br>
+    <input type="radio" id="e" name="status">
+    <label for="e">Employed</label><br>
+    <input type="radio" id="f" name="status">
+    <label for="f">Unemployed</label><br>
+    <input type="radio" id="g" name="status">
+    <label for="g">Self Employed</label><br>
+    <input type="radio" id="h" name="status">
+    <label for="h">Student</label>
+    <br><br>
+    <label for="z"><b>Resume:</b></label><br><br>
+    <input type="file" id="z"><br><br>
+    <input type="submit" value="submit">
+    <input type="button" value="reset">
+    </center>
+
+</body>
+</html>
